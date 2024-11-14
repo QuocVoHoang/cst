@@ -3,6 +3,7 @@ import heapq
 import pandas as pd
 import matplotlib.pyplot as plt
 import networkx as nx
+import time
 
 
 def dijkstra(cost_matrix, capacity_matrix, source, sink, parent):
@@ -84,21 +85,23 @@ capacity_matrix = df_capacity.iloc[:, 1:].to_numpy()
 
 def get_result_min_cost_max_flow(cost_matrix, capacity_matrix, source, sink,nodes):
     max_flow, min_cost, paths = min_cost_max_flow(cost_matrix, capacity_matrix, source, sink)
-    print("Lưu lượng tối đa là:", max_flow)
-    print("Chi phí tối thiểu:", min_cost)
-
-
+    return max_flow, min_cost
 
 nodes = list(df_cost.columns)
 
-start_location = input("A")
-end_location = input("E")
+start_location = "Sân bay Tân Sơn Nhất"
+end_location = "Ngã tư Bảy Hiền"
 
+start_time = time.time()
 try:
     start_index = nodes.index(start_location)
     end_index = nodes.index(end_location)
-    get_result_min_cost_max_flow(cost_matrix, capacity_matrix, start_index,end_index,nodes)
+    print('Dijkstra')
+    print('from: Sân bay Tân Sơn Nhất')
+    print('to: Ngã tư Bảy Hiền')
+    max_flow, min_cost = get_result_min_cost_max_flow(cost_matrix, capacity_matrix, start_index,end_index,nodes)
+    print(f"Max flow: {max_flow} - Min cost: {min_cost}")
+    end_time = time.time()
+    print(f'Program runs in {round(end_time - start_time, 4)}s')
 except ValueError:
     print("Điểm đi hoặc điểm đến không có trong danh sách.")
-#Đường Bình Quới
-#Đường Nguyễn Gia Trí

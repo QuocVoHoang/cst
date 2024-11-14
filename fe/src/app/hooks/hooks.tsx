@@ -26,7 +26,6 @@ export default function useHook() {
       setDeparture(RealLocations.find(location => location.location == departureText))
       setDestination(RealLocations.find(location => location.location == destinationText))
 
-      // const response = await axios.post('https://cst-server.onrender.com/', {
       const response = await axios.post('http://localhost:8000/', {
         start_location_name: startLocationName,
         end_location_name: endLocationName,

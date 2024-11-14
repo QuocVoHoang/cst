@@ -1,0 +1,72 @@
+[
+  {
+    "location": "Số 7 Đường Nơ Trang Long",
+    "latitude": 10.8057066,
+    "longitude": 106.6950265,
+    "key": 48,
+    "node_id": "5773400692"
+  },
+  {
+    "location": "Ngã tư Ga",
+    "latitude": 10.8613449,
+    "longitude": 106.680338,
+    "key": 46,
+    "node_id": "737199274"
+  },
+  {
+    "location": "Đại học Sư phạm kỹ thuật thành phố Hồ Chí Minh",
+    "latitude": 10.8485663,
+    "longitude": 106.7735913,
+    "key": 45,
+    "node_id": "676035155"
+  },
+  {
+    "location": "Trường THPT Nguyễn Trung Trực",
+    "latitude": 10.84763,
+    "longitude": 106.66877,
+    "key": 43,
+    "node_id": "3242683103"
+  },
+  {
+    "location": "Trường THPT Marie Curie",
+    "latitude": 10.78323,
+    "longitude": 106.69095,
+    "key": 41,
+    "node_id": "3168120093"
+  },
+  {
+    "location": "Chợ Tân Sơn Nhì",
+    "latitude": 10.79925,
+    "longitude": 106.63213,
+    "key": 39,
+    "node_id": "3830454074"
+  },
+  {
+    "location": "Chợ Hồng Hà",
+    "latitude": 10.81323,
+    "longitude": 106.66852,
+    "key": 38,
+    "node_id": "2077773901"
+  },
+  {
+    "location": "Chợ Bình Trị Đông",
+    "latitude": 10.76716,
+    "longitude": 106.60968,
+    "key": 37,
+    "node_id": "5006654050"
+  },
+  {
+    "location": "Chợ Hòa Thạnh",
+    "latitude": 10.78473,
+    "longitude": 106.62709,
+    "key": 35,
+    "node_id": "366464950"
+  },
+  {
+    "location": "Đường Lý Thái Tổ",
+    "latitude": 10.7666644,
+    "longitude": 106.6775932,
+    "key": 34,
+    "node_id": "5758130729"
+  }
+]

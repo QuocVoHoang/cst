@@ -111,17 +111,17 @@ if __name__ == "__main__":
   vehicle_data = vehicle_data.drop(columns=['Unnamed: 0'])
   length_data = length_data.drop(columns=['Unnamed: 0'])
   
-  source = vehicle_data.columns.get_loc("AEON Mall Bình Tân")
-  sink = vehicle_data.columns.get_loc("Bệnh viện Nhi Đồng 1")
+  source = vehicle_data.columns.get_loc("Sân bay Tân Sơn Nhất")
+  sink = vehicle_data.columns.get_loc("Ngã tư Bảy Hiền")
 
   cap = vehicle_data.values.tolist()
   cost = length_data.values.tolist()
 
   result = getMaxFlow(cap, cost, source, sink)
-  print('from: AEON Mall Bình Tân')
-  print('to: Bệnh viện Nhi Đồng 1')
+  print("Bellman-Ford")
+  print('from: Sân bay Tân Sơn Nhất')
+  print('to: Ngã tư Bảy Hiền')
   print("Max flow: {} - Min cost: {}".format(result[0], result[1]))
  
   end_time = time.time()
-  total_function_time = round(end_time - start_time, 4)
-  print(f"The program runs in {total_function_time}s")
+  print(f"The program runs in {round(end_time - start_time, 4)}s")

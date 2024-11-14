@@ -1,0 +1,72 @@
+[
+  {
+    "location": "Ngã tư Bảy Hiền",
+    "latitude": 10.79283,
+    "longitude": 106.65348,
+    "key": 1,
+    "node_id": "3806810443"
+  },
+  {
+    "location": "Ngã tư Bình Phước",
+    "latitude": 10.86538,
+    "longitude": 106.72412,
+    "key": 3,
+    "node_id": "2325332286"
+  },
+  {
+    "location": "Ngã tư An Sương",
+    "latitude": 10.86228,
+    "longitude": 106.79741,
+    "key": 4,
+    "node_id": "1958801416"
+  },
+  {
+    "location": "Ngã sáu Lý Thái Tổ",
+    "latitude": 10.76656,
+    "longitude": 106.67808,
+    "key": 6,
+    "node_id": "5758130724"
+  },
+  {
+    "location": "Phố đi bộ Nguyễn Huệ",
+    "latitude": 10.79009,
+    "longitude": 106.69054,
+    "key": 8,
+    "node_id": "411919364"
+  },
+  {
+    "location": "Chợ Lớn",
+    "latitude": 10.74523,
+    "longitude": 106.63011,
+    "key": 10,
+    "node_id": "3338165653"
+  },
+  {
+    "location": "Đường Lê Quang Sung",
+    "latitude": 10.7509832,
+    "longitude": 106.65108,
+    "key": 11,
+    "node_id": "366456369"
+  },
+  {
+    "location": "Chùa Ngọc Hoàng",
+    "latitude": 10.77805,
+    "longitude": 106.76422,
+    "key": 12,
+    "node_id": "5738265715"
+  },
+  {
+    "location": "Đài quan sát Landmark 81",
+    "latitude": 10.73233,
+    "longitude": 106.62484,
+    "key": 14,
+    "node_id": "4275271701"
+  },
+  {
+    "location": "Khu du lịch Bình Quới",
+    "latitude": 10.83008,
+    "longitude": 106.74042,
+    "key": 15,
+    "node_id": "5742825828"
+  }
+]
